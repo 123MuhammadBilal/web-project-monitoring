@@ -60,6 +60,9 @@ if (isset($_POST["submit"])) {
                         <label for="pleader">Project Leader </label>
                         <input type="text" class="form-control" name="pleader" id="pleader" required>
 
+                        <label for="email">Email </label>
+                        <input type="text" class="form-control" name="email" id="email" required>
+
                         <label for="sdate">Start Date </label>
                         <input type="date" class="form-control" name="sdate" id="sdate" required>
 
