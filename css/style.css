@@ -2,6 +2,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* ----------- LOGIN DAN REGISTER --------------- */
 .login-register{
   height: 100vh;
@@ -192,6 +196,4 @@ background-color: #f1eeee;
 
 
 /* ---------------- FOOTER --------------- */
-footer h5{
- font-weight: bold;
-}
+
