@@ -192,13 +192,6 @@ background-color: #f1eeee;
 
 
 /* ---------------- FOOTER --------------- */
-footer {
-  background-color: #473737;
-}
-footer h5 {
-  color: #fded0a;
-  padding-bottom: 5px;
-}
-footer .copyr {
-  margin-top: 20px;
+footer h5{
+ font-weight: bold;
 }

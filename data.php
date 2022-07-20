@@ -17,7 +17,7 @@ if (isset($_POST["cari"])) {
     <div class="container">
         <div class="row justify-content-around">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h4 class="text-center mt-5 mb-4">Project Mentoring</h4>
+                <h4 class="text-center mt-5 mb-4">Muhammad Bilal</h4>
                 <a href="data.php"><button class="btn btn-danger float-end">Kembali</button></a>
 
                 <a href="tambah.php" class="d-block"><button class="btn btn-success mb-3">Tambah Data</button></a>
@@ -65,7 +65,12 @@ if (isset($_POST["cari"])) {
                 </div>
             </div>
         </div>
+        <div class="float-end">
+            <p class="float-end mt-5">Created by :</p>
+            <p class="" style="font-weight: bold;">Muhammad Bilal</p>
+        </div>
     </div>
 </section>
+
 
 <?php include 'includes/footer.php'; ?>
