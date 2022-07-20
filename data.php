@@ -16,7 +16,7 @@ if (isset($_POST["cari"])) {
 <section id="data">
     <div class="container">
         <div class="row justify-content-around">
-            <div class="col-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <h4 class="text-center mt-5 mb-4">Project Mentoring</h4>
                 <a href="data.php"><button class="btn btn-danger float-end">Kembali</button></a>
 

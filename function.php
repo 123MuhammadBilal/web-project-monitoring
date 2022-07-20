@@ -28,7 +28,7 @@ function tambah($data)
     $progress = htmlspecialchars($data["progress"]);
 
     // query insert data
-    $query = "INSERT INTO project VALUES ('', '$pname','$client','$pleader','','$sdate','$edate','$progress')";
+    $query = "INSERT INTO project VALUES ('', '$pname','$client','$pleader','$email','$sdate','$edate','$progress')";
     mysqli_query($conn, "$query");
 
     return mysqli_affected_rows($conn);
