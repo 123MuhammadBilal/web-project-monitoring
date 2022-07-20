@@ -44,16 +44,16 @@ if (isset($_POST["cari"])) {
                         <tbody>
                             <?php foreach ($project as $row) : ?>
                                 <tr>
-                                    <td rowspan="2"><?= $row["pname"]; ?></td>
-                                    <td rowspan="2"><?= $row["client"]; ?></td>
-                                    <td rowspan="2">
+                                    <td><?= $row["pname"]; ?></td>
+                                    <td><?= $row["client"]; ?></td>
+                                    <td>
                                         <a href="#" style="text-decoration: none; color:black; font-weight:bold;"><?= $row["pleader"]; ?></a> <br>
                                         <?= $row["email"]; ?>
                                     </td>
-                                    <td rowspan="2"><?= $row["sdate"]; ?></td>
-                                    <td rowspan="2"><?= $row["edate"]; ?></td>
-                                    <td rowspan="2"> <progress id="file" value="<?= $row["progress"]; ?>" max="100"></progress> <?= $row["progress"]; ?> %</td>
-                                    <td rowspan="2">
+                                    <td><?= $row["sdate"]; ?></td>
+                                    <td><?= $row["edate"]; ?></td>
+                                    <td> <progress id="file" value="<?= $row["progress"]; ?>" max="100"></progress> <?= $row["progress"]; ?> %</td>
+                                    <td>
                                         <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?')"><button class="btn-danger"><i class="fa-light fa-trash fa"></i></button></a>
                                         <!-- "onclick" dari JS untuk membuat alert pilihan YES or NO saat menekanan hapus -->
                                         <a href="edit.php?id=<?= $row["id"] ?>"><button class="btn-success"><i class="fa-light fa-pen fa"></i></button></a>
