@@ -22,12 +22,13 @@ function tambah($data)
     $pname = htmlspecialchars($data["pname"]);
     $client = htmlspecialchars($data["client"]);
     $pleader = htmlspecialchars($data["pleader"]);
+    $email = htmlspecialchars($data["email"]);
     $sdate = htmlspecialchars($data["sdate"]);
     $edate = htmlspecialchars($data["edate"]);
     $progress = htmlspecialchars($data["progress"]);
 
     // query insert data
-    $query = "INSERT INTO project VALUES ('', '$pname','$client','$pleader','$sdate','$edate','$progress')";
+    $query = "INSERT INTO project VALUES ('', '$pname','$client','$pleader','','$sdate','$edate','$progress')";
     mysqli_query($conn, "$query");
 
     return mysqli_affected_rows($conn);
@@ -51,6 +52,7 @@ function edit($data)
     $pname = htmlspecialchars($data["pname"]);
     $client = htmlspecialchars($data["client"]);
     $pleader = htmlspecialchars($data["pleader"]);
+    $email = htmlspecialchars($data["email"]);
     $sdate = htmlspecialchars($data["sdate"]);
     $edate = htmlspecialchars($data["edate"]);
     $progress = htmlspecialchars($data["progress"]);
@@ -60,6 +62,7 @@ function edit($data)
     pname = '$pname',
     client = '$client',
     pleader = '$pleader',
+    email = '$email',
     sdate = '$sdate', 
     edate = '$edate', 
     progress = '$progress' 
