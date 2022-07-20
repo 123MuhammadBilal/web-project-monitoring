@@ -1,6 +1,5 @@
 * {
   font-family: 'Poppins', sans-serif;
-  font-size: 13px;
 }
 
 /* ----------- LOGIN DAN REGISTER --------------- */
@@ -131,16 +130,39 @@
   padding-top: 50px;
   height: 100vh;
   background-color: #7fbffc;
+  font-size: 13px;
 }
-#data h1{
+#data h4{
   color: black;
+  font-weight: bold;
 }
 
-#data table thead{
-  background-color: #f8f6f6;
+#data .tabledata{
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 7px;
+  padding-right: 7px;
+  padding-left: 7px;
 }
-#data table tbody{
-  background-color: #FFFF;
+
+table{
+  width: 100%;
+}
+
+#data table th{
+background-color: #f1eeee;
+}
+
+#data table td{
+  background-color: #ffffff;
+}
+
+#data table td, th{
+  padding: 10px 0px;
+  text-align: left center;
 }
 
 

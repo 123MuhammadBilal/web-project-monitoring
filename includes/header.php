@@ -24,7 +24,7 @@
     <section id="navbar">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow p-3 mb-5">
             <div class="container">
-                <a class="navbar-brand fw-bolder" href="index.php">Project Mentoring</a>
+                <h1 class="navbar-brand fw-bolder" href="index.php">Project Mentoring</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

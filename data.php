@@ -27,40 +27,42 @@ if (isset($_POST["cari"])) {
                     <button type="submit" name="cari" class="btn btn-primary">Cari</button>
                 </form>
 
-                <table class="table justify-content-center mt-2">
-                    <thead>
-                        <tr>
-                            <th>Project Name</th>
-                            <th>Client</th>
-                            <th>Project Leader</th>
-                            <th>Start Date</th>
-                            <th>End Date</th>
-                            <th>Progress</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <?php foreach ($project as $row) : ?>
+                <div class="tabledata">
+                    <table class="justify-content-center mt-2">
+                        <thead>
                             <tr>
-                                <td rowspan="2"><?= $row["pname"]; ?></td>
-                                <td rowspan="2"><?= $row["client"]; ?></td>
-                                <td rowspan="2">
-                                    <a href="#" style="text-decoration: none; color:black; font-weight:bold;"><?= $row["pleader"]; ?></a> <br>
-                                    <?= $row["email"]; ?>
-                                </td>
-                                <td rowspan="2"><?= $row["sdate"]; ?></td>
-                                <td rowspan="2"><?= $row["edate"]; ?></td>
-                                <td rowspan="2"><?= $row["progress"]; ?></td>
-                                <td rowspan="2">
-                                    <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?')"><button class="btn-danger"><i class="fa-light fa-trash fa"></i></button></a>
-                                    <!-- "onclick" dari JS untuk membuat alert pilihan YES or NO saat menekanan hapus -->
-                                    <a href="edit.php?id=<?= $row["id"] ?>"><button class="btn-success"><i class="fa-light fa-pen fa"></i></button></a>
-                                </td>
+                                <th>PROJECT NAME</th>
+                                <th>CLIENT</th>
+                                <th>PROJECT LEADER</th>
+                                <th>START DATE</th>
+                                <th>END DATE</th>
+                                <th>PROGRESS</th>
+                                <th>ACTION</th>
                             </tr>
-                        <?php endforeach; ?>
-                    </tbody>
-                </table>
+                        </thead>
+
+                        <tbody>
+                            <?php foreach ($project as $row) : ?>
+                                <tr>
+                                    <td rowspan="2"><?= $row["pname"]; ?></td>
+                                    <td rowspan="2"><?= $row["client"]; ?></td>
+                                    <td rowspan="2">
+                                        <a href="#" style="text-decoration: none; color:black; font-weight:bold;"><?= $row["pleader"]; ?></a> <br>
+                                        <?= $row["email"]; ?>
+                                    </td>
+                                    <td rowspan="2"><?= $row["sdate"]; ?></td>
+                                    <td rowspan="2"><?= $row["edate"]; ?></td>
+                                    <td rowspan="2"> <progress id="file" value="<?= $row["progress"]; ?>" max="100"></progress> <?= $row["progress"]; ?> %</td>
+                                    <td rowspan="2">
+                                        <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?')"><button class="btn-danger"><i class="fa-light fa-trash fa"></i></button></a>
+                                        <!-- "onclick" dari JS untuk membuat alert pilihan YES or NO saat menekanan hapus -->
+                                        <a href="edit.php?id=<?= $row["id"] ?>"><button class="btn-success"><i class="fa-light fa-pen fa"></i></button></a>
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
