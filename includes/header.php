@@ -22,7 +22,7 @@
 
     <!-- START navbar -->
     <section id="navbar">
-        <nav class="navbar fixed-top navbar-expand-lg p-4 mb-5">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg p-3">
             <div class="container">
                 <a href="index.php">
                     <h1 class="navbar-brand fw-bolder" href="index.php">Project Mentoring</h1>
@@ -45,7 +45,7 @@
                             <a class="nav-link" href="project.php">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </div>
                 </div>

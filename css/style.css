@@ -8,11 +8,12 @@ a{
 
 /* =-------------------- NAVBAR --------------------- */
 #navbar{
-  background-image: url('../img/bg-biru.jpg');
+  background-color: #000000;
 }
 #navbar .navbar-brand {
   font-weight: bolder;
   color: #ffffff;
+
 }
 #navbar .navbar-nav a{
   margin: 0 5px;
@@ -23,13 +24,15 @@ a{
   font-size: 20px;
   box-sizing: border-box;
   border-radius: 30px;
+
 }
 #navbar .navbar-nav a:hover {
-  color: #a1cffa;
-  background-color: #000000;
+  color: #020202;
+  background-color: #54afe4;
   box-sizing: border-box;
   border-radius: 30px;
-  transition: 2s;
+  transition: 1.5s;
+  text-decoration: none;
 }
 
 
@@ -38,14 +41,39 @@ a{
   background-image: url('../img/bg-biru.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+}
+.home-right, .home-left{
+  padding: 50px 50px;
+  padding-bottom: 20px;
   height: 100vh;
 }
 
         /*+++++ HOME_RIGHT ++++++ */
+
+.home-left h1{
+  padding-top: 150px;
+  font-weight: bolder;
+  color: #f7f3f3;
+  text-shadow: 3px 3px #000000;
+  font-size: 70px;
+}
+.home-left h2{
+  font-weight: bolder;
+  color: #f7f3f3;
+  text-shadow: 3px 3px #000000;
+}
+.home-left p{
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: justify;
+}
+
 .home-right img{
-  margin-top: 200px;
-  margin-left: 100px;
-  width: 350px;
+  margin-left: 80px;
+  padding-top: 150px;
+  text-align: center;
+  width: 300px;
 }
 
 /* ------------------ ABOUT ------------- */
@@ -53,25 +81,38 @@ a{
   background-image: url('../img/bg-biru.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   height: 100vh;
-  padding-top: 200px;
+  padding-top: 150px ;
+}
+
+#about .about-content{
+  height: 100%;
+}
+
+#about h1{
+  color: #ffffff;
+  text-shadow: 3px 3px #000000;
 }
 
 #about h4 {
+  color: #ffffff;
+  font-weight: bold;
   text-indent: 70px;
   text-align: justify;
+  text-shadow: 1px 1px #000000;
+
 }
 
 
 /* --------------------------- PROJECT ---------------------*/
 #project{
-  padding-top: 50px;
-  height: 100vh;
+  height: 100%;
   background-color: #a1cffa;
   font-size: 13px;
+  padding-bottom: 20px;
 }
 #project h4{
+  padding-top: 40px;
   color: black;
   font-weight: bold;
 }
