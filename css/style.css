@@ -73,7 +73,7 @@ a{
 
 #project .tableproject{
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 7px;
   background-color: #fcfcfc;
   margin-top: 15px;
   padding-top: 7px;
@@ -98,6 +98,20 @@ background-color: #f7f3f3;
   padding: 10px 0px;
   text-align: left center;
 }
+
+#project .created{
+  text-align: right;
+  margin-top: 20px;
+}
+#project .created .c-by{
+  color: #645e5e;
+}
+#project .created .c-name{
+  margin-top: -15px;
+  font-weight: bold;
+}
+
+
 
 
 /*------------------------- EDIT-TAMBAH -------------------  */

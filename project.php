@@ -64,9 +64,9 @@ if (isset($_POST["cari"])) {
                 </div>
             </div>
         </div>
-        <div class="float-end">
-            <p class="float-end mt-5">Created by :</p>
-            <p class="" style="font-weight: bold;">Muhammad Bilal</p>
+        <div class="created">
+            <p class="c-by">Created by :</p>
+            <h6 class="c-name">Muhammad Bilal</h6>
         </div>
     </div>
 </section>
