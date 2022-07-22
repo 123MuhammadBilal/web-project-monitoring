@@ -7,40 +7,45 @@ a{
 }
 
 /* =-------------------- NAVBAR --------------------- */
+#navbar{
+  background-image: url('../img/bg-biru.jpg');
+}
 #navbar .navbar-brand {
+  font-weight: bolder;
   color: #ffffff;
 }
-#navbar .nav-link {
-  color: #ffff;
+#navbar .navbar-nav a{
+  margin: 0 5px;
+  padding: 0 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  text-shadow: 5px #000000;
   font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
 }
 #navbar .navbar-nav a:hover {
   color: #a1cffa;
-}
-#navbar .dropdown-menu li a{
- color: rgba(243, 237, 237, 0.986);
-}
-#navbar .dropdown-menu li a:hover{
- color: rgba(8, 8, 8, 0.986);
+  background-color: #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+  transition: 2s;
 }
 
 
 /* ---------------- HOME ------------------ */
 #home{
-  margin-top: 170px;
-  height: 100vh;
-}
-#home .home {
-  height: 100vh;
-  margin-top: -170px;
-  padding-top: 12rem;
-  /* background-color: #473737; */
-  background-image: url('../img/bg-login.jpg');
+  background-image: url('../img/bg-biru.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
-.home h2 {
-  margin-top: 30px;
+
+        /*+++++ HOME_RIGHT ++++++ */
+.home-right img{
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 350px;
 }
 
 /* ------------------ ABOUT ------------- */

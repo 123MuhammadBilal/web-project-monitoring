@@ -22,7 +22,7 @@
 
     <!-- START navbar -->
     <section id="navbar">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow p-3 mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg p-4 mb-5">
             <div class="container">
                 <a href="index.php">
                     <h1 class="navbar-brand fw-bolder" href="index.php">Project Mentoring</h1>

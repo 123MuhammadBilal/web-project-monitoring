@@ -1,13 +1,15 @@
   <?php include 'includes/header.php'; ?>
 
   <!-- START Home -->
-  <section id="home">
-    <div class="home text-center">
-      <div class="container">
-        <img src="img/hmti.jpg" alt="" width="200" height="200" class="rounded-circle img-thumbnail" />
-        <h2 class="fw-bolder" style="color: #fded0a">Website Project Mentoring</h2>
-        <p class="lead fst-italic fw-bold" style="color: #ffffff">#Magang Merdeka</p>
-        <a href="project.php"><button class="btn btn-primary">Lihat Data</button></a>
+  <section id="home" class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="home-left col-lg-6 col-md-6 col-sm-12">
+          <h2></h2>
+        </div>
+        <div class="home-right col-lg-6 col-md-6 col-sm-12 ">
+          <img src="img/home-right.png" alt="">
+        </div>
       </div>
     </div>
   </section>
