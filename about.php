@@ -8,8 +8,7 @@
                 <div class="row justify-content-around">
                     <div class="col-8">
                         <h4>
-                            Teknologi Informasi merupakan salah satu jurusan dari fakultas Teknik di Universitas Tadulako. Jurusan Teknologi Informasi terdapat dua prodi yaitu Teknik Informatika dan Sistem Inormasi. Dengan perkembangan teknologi yang semakin maju maka website ini dibuat oleh tim dari Jurusan Teknologi Informasi sebagai sarana atau tempat menyimpan data data mahasiswa berbasi website dengan menggunakan database.
-                        </h4>
+                            Mentoring adalah sebuah proses pembelajaran dalam bentuk hubungan saling mendukung dan pengawasan, diantara dua orang atau lebih dimana seseorang dianggap memiliki kemahiran dan kemampuan lebih dari yang lain yang disebut mentor menjadi model, guru, sponsor, konsultan dan pendorong kepada peserta mentoring yang disebut mantee dalam rangka mentransfer pengetahuan dan pemikiran agar kompetensi mantee menjadi lebih berkembang. </h4>
                     </div>
                 </div>
             </div>

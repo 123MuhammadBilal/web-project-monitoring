@@ -41,7 +41,7 @@ a{
   background-image: url('../img/bg-biru.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
 }
 .home-right, .home-left{
   padding: 0px 50px;
@@ -103,7 +103,7 @@ a{
 
 /* --------------------------- PROJECT ---------------------*/
 #project{
-  height: 100%;
+  height: 100vh;
   background-color: #c6def5;
   font-size: 13px;
   padding-bottom: 20px;
