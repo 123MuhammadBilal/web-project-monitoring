@@ -44,8 +44,7 @@ a{
   height: 100%;
 }
 .home-right, .home-left{
-  padding: 50px 50px;
-  padding-bottom: 20px;
+  padding: 0px 50px;
   height: 100vh;
 }
 
@@ -60,7 +59,7 @@ a{
 }
 .home-left h2{
   font-weight: bolder;
-  color: #f7f3f3;
+  color: #f3f5f7;
   text-shadow: 3px 3px #000000;
 }
 .home-left p{
