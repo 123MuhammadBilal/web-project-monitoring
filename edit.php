@@ -15,14 +15,14 @@ if (isset($_POST["submit"])) {
         echo "
             <script>
             alert('Data berhasil diedit!');
-            document.location.href = 'data.php';
+            document.location.href = 'project.php';
             </script> 
         ";
     } else {
         echo "
             <script>
             alert('Data Gagal diedit!');
-            document.location.href = 'data.php';
+            document.location.href = 'project.php';
             </script>
         ";
     }
@@ -80,7 +80,7 @@ if (isset($_POST["submit"])) {
 
                         <button type="submit" name="submit" class="btn btn-success mt-3 w-100">Edit Data</button>
                     </form>
-                    <a href="data.php"><button class="btn btn-danger mt-3 float-end ">Kembali</button></a>
+                    <a href="project.php"><button class="btn btn-danger mt-3 float-end ">Kembali</button></a>
                 </div>
             </div>
         </div>

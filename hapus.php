@@ -7,14 +7,14 @@ if (hapus($id) > 0) {
     echo "
             <script>
             alert('Data berhasil dihapus!');
-            document.location.href = 'data.php';
+            document.location.href = 'project.php';
             </script> 
         ";
 } else {
     echo "
             <script>
             alert('Data Gagal dihapus!');
-            document.location.href = 'data.php';
+            document.location.href = 'project.php';
             </script> 
         ";
 }

@@ -6,79 +6,6 @@ a{
   text-decoration: none;
 }
 
-/* ----------- LOGIN DAN REGISTER --------------- */
-.login-register{
-  height: 100vh;
-  background-image: url('../img/bg-data.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.login-register .header h1{
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
-  color: #f8ac07;
-}
-.login-register .header p{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-  margin-bottom: 20px;
-  color: white;
-}
-
-.login-register-form label{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin-top: 20px;
-  color: white;
-}
-
-.login-register-form input{
-  background: #FFFF;
-  border: 1px solid #BCBCBC;
-  box-sizing: border-box;
-  border-radius: 8px;
-}
-
-.login-register-form .btn-login-register{
-  color: rgb(0, 0, 0);
-  width: 100%;
-  height: 42px;
-  background-color: rgb(248, 172, 7);
-  border: 1px solid #BCBCBC;
-  box-sizing:  border-box;
-  border-radius: 8px;
-  display: block;
-  margin: 20px 0;
-  border: none;
-}
-
-.login-register-form .btn-login-register:hover{
-  background-color: #af1818;
-  color: white;
-}
-
-.login-register-form span{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-  color: white;
-}
-
-.login-register-form span a{
-  text-decoration: none;
-  font-weight: 600px;
-  color: rgb(215, 236, 22)
-}
-
-
 /* =-------------------- NAVBAR --------------------- */
 #navbar .navbar-brand {
   color: #ffffff;
@@ -88,7 +15,7 @@ a{
   font-size: 20px;
 }
 #navbar .navbar-nav a:hover {
-  color: #fded0a;
+  color: #a1cffa;
 }
 #navbar .dropdown-menu li a{
  color: rgba(243, 237, 237, 0.986);
@@ -118,6 +45,9 @@ a{
 
 /* ------------------ ABOUT ------------- */
 #about {
+  background-image: url('../img/bg-biru.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   height: 100vh;
   padding-top: 200px;
@@ -129,24 +59,24 @@ a{
 }
 
 
-/* --------------------------- DATA ---------------------*/
-#data{
+/* --------------------------- PROJECT ---------------------*/
+#project{
   padding-top: 50px;
   height: 100vh;
-  background-color: #7fbffc;
+  background-color: #a1cffa;
   font-size: 13px;
 }
-#data h4{
+#project h4{
   color: black;
   font-weight: bold;
 }
 
-#data .tabledata{
+#project .tableproject{
   box-sizing: border-box;
   border-radius: 5px;
   background-color: #fcfcfc;
-  margin-top: 5px;
-  padding-top: 3px;
+  margin-top: 15px;
+  padding-top: 7px;
   padding-bottom: 7px;
   padding-right: 7px;
   padding-left: 7px;
@@ -156,15 +86,15 @@ table{
   width: 100%;
 }
 
-#data table th{
-background-color: #f1eeee;
+#project table th{
+background-color: #f7f3f3;
 }
 
-#data table td{
+#project table td{
   background-color: #ffffff;
 }
 
-#data table td, th{
+#project table td, th{
   padding: 10px 0px;
   text-align: left center;
 }
@@ -172,7 +102,10 @@ background-color: #f1eeee;
 
 /*------------------------- EDIT-TAMBAH -------------------  */
 #edit-tambah{
-  background-color: #6e6767;
+  /* background-color: #6e6767; */
+  background-image: url('../img/bg-biru.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 50px 0px;
 }
 

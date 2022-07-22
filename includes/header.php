@@ -42,14 +42,10 @@
                             <a class="nav-link" aria-current="page" href="service.php">Service</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="data.php">Data</a>
+                            <a class="nav-link" href="project.php">Project</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i></a>
-                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item text-center" href="#">Profile</a></li>
-                                <li><a class="dropdown-item text-center" href="logout.php">Logout</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
                         </li>
                     </div>
                 </div>
