@@ -20,9 +20,9 @@ if (isset($_POST["cari"])) {
     <div class="container">
         <div class="row justify-content-around">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h4 class="text-center mt-5 mb-4">Project Mentoring</h4>
+                <h4 class="text-center mt-2 mb-4">Project Mentoring</h4>
 
-                <a href="tambah.php" class="d-block"><button class="btn btn-success mb-3">Tambah project</button></a>
+                <a href="tambah.php"><button class="btn btn-success mb-3">Tambah project</button></a>
 
                 <form action="" method="post">
                     <input type="text" name="keyword" autofocus placeholder="Cari project" autocomplete="off">

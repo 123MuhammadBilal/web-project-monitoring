@@ -6,7 +6,7 @@ a{
   text-decoration: none;
 }
 
-/* =-------------------- NAVBAR --------------------- */
+/* =------------------------- NAVBAR ----------------------- */
 #navbar{
   background-color: #000000;
 }
@@ -36,7 +36,8 @@ a{
 }
 
 
-/* ---------------- HOME ------------------ */
+
+/* ------------------------------ HOME --------------------------- */
 #home{
   background-color: #c6def5;
   background-repeat: no-repeat;
@@ -73,7 +74,9 @@ a{
   width: 400px;
 }
 
-/* ------------------ ABOUT ------------- */
+
+
+/* ------------------------- ABOUT ---------------------- */
 #about {
   background-color: #c6def5;
   height: 100vh;
@@ -97,6 +100,7 @@ a{
   text-shadow: 2px 2px #ffffff;
 
 }
+
 
 
 /* --------------------------- PROJECT ---------------------*/
@@ -138,6 +142,23 @@ background-color: #faf6f6;
 #project table td, th{
   padding: 10px 0px;
   text-align: left center;
+}
+
+/* -- PROGRES -- */
+progress { 
+  border-radius: 10px;
+}
+progress::-webkit-progress-value { 
+  background:#9274e2; 
+  border-radius: 10px;
+}
+progress[value='100']::-webkit-progress-value { 
+  background:rgb(30, 177, 30); 
+  border-radius: 10px;
+}
+progress::-webkit-progress-bar {
+  background: rgb(185, 217, 243) !important;
+  border-radius: 10px;
 }
 
 #project .created{
@@ -185,7 +206,9 @@ background-color: #faf6f6;
 #edit-tambah .btn{
   text-decoration: none;
   color: white;
+  
 }
+
 
 
 /* --------------------- CONTACT ------------------ */
@@ -232,7 +255,6 @@ background-color: #faf6f6;
 }
 #contact .contact-right p{
   text-align: justify;
-  text-indent: 7px;
 }
 #contact .contact-right img{
   margin-top: 20px;
