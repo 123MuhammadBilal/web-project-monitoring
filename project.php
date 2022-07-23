@@ -53,7 +53,7 @@ if (isset($_POST["cari"])) {
                                     <td><?= $row["edate"]; ?></td>
                                     <td> <progress id="file" value="<?= $row["progress"]; ?>" max="100"></progress> <?= $row["progress"]; ?> %</td>
                                     <td>
-                                        <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?')"><button class="btn btn-danger btn-sm"><i class="fa-light fa-trash fa"></i></button></a>
+                                        <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('Tekan OK Jika Anda Ingin Menghapus Projcet Ini')"><button class="btn btn-danger btn-sm"><i class="fa-light fa-trash fa"></i></button></a>
                                         <!-- "onclick" dari JS untuk membuat alert pilihan YES or NO saat menekanan hapus -->
                                         <a href="edit.php?id=<?= $row["id"] ?>"><button class="btn btn-success btn-sm"><i class="fa-light fa-pen fa"></i></button></a>
                                     </td>

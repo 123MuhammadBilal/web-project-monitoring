@@ -49,7 +49,7 @@ if (isset($_POST["submit"])) {
             <div class="row justify-content-around">
                 <div class="col-lg-6 col-md-8 col-sm-10">
                     <form action="tambah.php" method="post">
-                        <h1 class="mt-3 text-center mb-5">Tambah Data Mahasiswa</h1>
+                        <h1 class="mt-3 text-center mb-5">Tambah Projcet Mentoring</h1>
 
                         <label for="pname">Project Name </label>
                         <input type="text" class="form-control" name="pname" id="pname" required>

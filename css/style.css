@@ -38,7 +38,7 @@ a{
 
 /* ---------------- HOME ------------------ */
 #home{
-  background-image: url('../img/bg-biru.jpg');
+  background-color: #c6def5;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -49,16 +49,16 @@ a{
 }
 
 .home-left h1{
-  padding-top: 150px;
+  margin-top: 200px;
   font-weight: bolder;
-  color: #f7f3f3;
-  text-shadow: 3px 3px #000000;
+  color: #000000;
+  text-shadow: 3px 3px hsl(0, 0%, 100%);
   font-size: 70px;
 }
 .home-left h2{
   font-weight: bolder;
-  color: #f3f5f7;
-  text-shadow: 3px 3px #000000;
+  color: #125f9e;
+  text-shadow: 3px 3px #ffffff;
 }
 .home-left p{
   margin-top: 30px;
@@ -70,14 +70,12 @@ a{
   margin-left: 80px;
   padding-top: 150px;
   text-align: center;
-  width: 300px;
+  width: 400px;
 }
 
 /* ------------------ ABOUT ------------- */
 #about {
-  background-image: url('../img/bg-biru.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #c6def5;
   height: 100vh;
   padding-top: 150px ;
 }
@@ -87,16 +85,16 @@ a{
 }
 
 #about h1{
-  color: #ffffff;
-  text-shadow: 3px 3px #000000;
+  color: #000000;
+  text-shadow: 3px 3px #ffffff;
 }
 
 #about h4 {
-  color: #ffffff;
   font-weight: bold;
   text-indent: 70px;
   text-align: justify;
-  text-shadow: 1px 1px #000000;
+  color: #125f9e;
+  text-shadow: 2px 2px #ffffff;
 
 }
 
@@ -160,20 +158,19 @@ background-color: #f7f3f3;
 /*------------------------- EDIT-TAMBAH -------------------  */
 #edit-tambah{
   /* background-color: #6e6767; */
-  background-image: url('../img/bg-biru.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #c6def5;
+  height: 100vh;
   padding: 50px 0px;
 }
 
 #edit-tambah h1{
-  color: #ffffff;
-  text-shadow: 3px 3px #000000;
+  color: #000000;
+  text-shadow: 3px 3px hsl(0, 0%, 100%);
 
 }
 
 #edit-tambah h3, label{
-  color: white;
+  color: black;
 }
 
 #edit-tambah .form-control{
@@ -200,7 +197,7 @@ background-color: #f7f3f3;
 }
 #contact .contact-left, .contact-right{
   margin-top: 30px;
-  padding: 30px 30px;
+  padding: 50px 30px;
   height: 70vh;
   align-items: center;
   box-shadow: 6px 6px #9c7d7d67;
@@ -210,10 +207,11 @@ background-color: #f7f3f3;
   background-color: #020202;
 }
 #contact .contact-left h1{
-  color: #c6def5;
+  color: hsl(0, 0%, 100%);
   text-align: center;
 }
 #contact .contact-left label{
+  color: white;
   margin-top: 15px;
 }
 #contact .contact-left input{
