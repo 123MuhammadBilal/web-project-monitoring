@@ -8,7 +8,7 @@
                 <div class="row justify-content-around">
                     <div class="col-8">
                         <h4>
-                            Mentoring adalah sebuah proses pembelajaran dalam bentuk hubungan saling mendukung dan pengawasan, diantara dua orang atau lebih dimana seseorang dianggap memiliki kemahiran dan kemampuan lebih dari yang lain yang disebut mentor menjadi model, guru, sponsor, konsultan dan pendorong kepada peserta mentoring yang disebut mantee dalam rangka mentransfer pengetahuan dan pemikiran agar kompetensi mantee menjadi lebih berkembang. </h4>
+                            Monitoring System dapat digolongkan ke dalam sistem otomasi, alasannya yaitu alat yang dipakai biasanya dapat digunakan secara otomatis sehingga tidak diperlukan lagi melakukan pengawasan secara manual. Sudah banyak kantor atau perusahaan yang menerapkan sistem ini untuk mengawasi kinerja komputer, bangunan maupun keseluruhan sistem yang ada di dalamnya.
                     </div>
                 </div>
             </div>
