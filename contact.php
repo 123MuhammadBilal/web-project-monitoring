@@ -17,7 +17,7 @@
             </div>
             <div class="contact-right col-lg-6 col-md-6 col-sm-12">
                 <h1>Get In Touch</h1>
-                <p>Untuk mengehtahui lebih detail terkait projcet mentoring dan silahkan hubungi kontak kami dibawah ini.</p>
+                <p class="text-center">Untuk mengehtahui lebih detail terkait projcet mentoring dan silahkan hubungi kontak kami dibawah ini.</p>
 
                 <img src="img/bilal1.jpg" width="120" height="120" alt=""> <br>
 
