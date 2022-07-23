@@ -5,13 +5,15 @@
         <div class="row pt-5 pe-3 ps-3 ">
             <div class="contact-left col-lg-6 col-md-6 col-sm-12">
                 <h1>Contact Us</h1>
-                <label for="name">Name : </label>
-                <input type="text" class="form-control" name="name" id="name">
-                <label for="email">Email : </label>
-                <input type="text" class="form-control" name="email" id="email">
-                <label for="message">Message : </label>
-                <input type="text" class="form-control" name="message" id="message">
-                <button type="submit" class="btn btn-primary form-control mt-5" name="">Kirim</button>
+                <form action="">
+                    <label for="name">Name : </label>
+                    <input type="text" class="form-control" name="name" id="name">
+                    <label for="email">Email : </label>
+                    <input type="text" class="form-control" name="email" id="email">
+                    <label for="message">Message : </label>
+                    <input type="text" class="form-control" name="message" id="message">
+                    <button type="submit" class="btn btn-primary form-control mt-5" name="">Kirim</button>
+                </form>
             </div>
             <div class="contact-right col-lg-6 col-md-6 col-sm-12">
                 <h1>Get In Touch</h1>
