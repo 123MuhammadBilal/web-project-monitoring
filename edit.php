@@ -53,7 +53,7 @@ if (isset($_POST["submit"])) {
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col-lg-6 col-md-8 col-sm-10">
-                    <h1 class="mt-3 text-center mb-5">Edit Projcet Mentoring</h1>
+                    <h1 class="mt-3 text-center mb-5">Edit Projcet Monitoring</h1>
                     <form action="" method="post">
                         <input type="hidden" name="id" value="<?= $dktr["id"]; ?>">
 
