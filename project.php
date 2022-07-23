@@ -1,6 +1,9 @@
 <?php
 
 require 'function.php';
+require 'includes/tanggalindo.php';
+
+date_default_timezone_set("ASIA/JAKARTA");
 
 $project =  query("SELECT * FROM project ORDER BY id ASC ");
 
@@ -49,8 +52,8 @@ if (isset($_POST["cari"])) {
                                         <a href="#" style="text-decoration: none; color:black; font-weight:bolder;"><?= $row["pleader"]; ?></a> <br>
                                         <?= $row["email"]; ?>
                                     </td>
-                                    <td><?= $row["sdate"]; ?></td>
-                                    <td><?= $row["edate"]; ?></td>
+                                    <td><?= tgl_indo($row["sdate"]) ?></td>
+                                    <td><?= tgl_indo($row["edate"]) ?></td>
                                     <td> <progress id="file" value="<?= $row["progress"]; ?>" max="100"></progress> <?= $row["progress"]; ?> %</td>
                                     <td>
                                         <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('Tekan OK Jika Anda Ingin Menghapus Projcet Ini')"><button class="btn btn-danger btn-sm"><i class="fa-light fa-trash fa"></i></button></a>
