@@ -1,6 +1,6 @@
 <?php
 //untuk menghubngkan ke database phpdasar
-$conn = mysqli_connect("localhost", "root", "", "interview3");
+$conn = mysqli_connect("localhost", "root", "", "project_monitoring");
 
 function query($query)
 {

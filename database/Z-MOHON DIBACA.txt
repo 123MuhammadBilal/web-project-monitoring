@@ -1,6 +1,6 @@
 Bismillah...
 
-"interview 3.sql" merupakan database nya
+"projcet_monitoring.sql" merupakan databasenya
 "projcet.sql" merupakan table databasenya
 
-note : karena terkdangan import database eror, maka saya lengkapi dengan SS databasenya. Saya Muhammad Bilal Terimakasih dan Mohon maaf :))
+note : karena terkdangang import database eror, maka saya lengkapi dengan SS databasenya. Saya Muhammad Bilal Terimakasih dan Mohon maaf :))

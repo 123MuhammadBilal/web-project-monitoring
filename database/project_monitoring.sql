@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 23, 2022 at 12:54 AM
+-- Generation Time: Jul 23, 2022 at 04:29 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.0.19
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `interview3`
+-- Database: `project_monitoring`
 --
 
 -- --------------------------------------------------------
@@ -47,7 +47,7 @@ INSERT INTO `project` (`id`, `pname`, `client`, `pleader`, `email`, `sdate`, `ed
 (2, 'Learning Management System', 'Ruang Guru', 'Hilman Syaputra', 'hilman.syah@gmail.com', '2022-03-01', '2022-10-03', '80'),
 (3, 'SI Pendataan Atlet Daerah', 'Dispora Jawa Timur', 'Febri Gunawan', 'febri.gunawan@gmail.com', '2022-02-02', '2022-03-05', '40'),
 (4, 'Employee Monitoring', 'PT. Bina Sarana Sukses', 'Handoko Aji', 'handoko.aji@gmail.com', '2021-02-09', '2022-12-01', '100'),
-(5, 'LMS', 'SI Travelling', 'Muhamnmad Bilal', 'bilal@gmail.com', '2002-09-09', '2003-09-09', '20');
+(5, 'LMS', 'SI Travelling', 'Muhamnmad Bilal', 'bilal@gmail.com', '2002-09-09', '2003-09-09', '38');
 
 --
 -- Indexes for dumped tables
